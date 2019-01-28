@@ -1,3 +1,5 @@
+import Clear
+
 # Inicializar cualquier objeto que requiera el SOftware Renderer.
 def glInit(self):
     self.framebuffer = []
@@ -9,6 +11,8 @@ def glInit(self):
     self.g = 0
     self.b = 0
     self.glClear()
+
+    
 
 
 
